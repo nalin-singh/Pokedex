@@ -1,16 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	padding: 0;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+	color: inherit;
+	text-decoration: none;
 }
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.container {
+	min-height: 100vh;
+	min-width: 100%;
+	padding: 24px 12px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+}
+
+.card-container {
+	border-radius: 1rem;
+	box-shadow: azure;
+}
+
+.grass:hover {
+	background-color: green;
+}
+
+.fire:hover {
+	background-color: red;
+}
+
+.water:hover {
+	background-color: skyblue;
+}
+
+.bug:hover {
+	background-color: yellowgreen;
+}
+
+.electric:hover {
+	background-color: gold;
+}
+
+.normal:hover {
+	background-color: bisque;
+}
+
+.ground:hover{
+	background-color: rgba(100, 70, 36,.75);
+
+}
+
+.poison:hover{
+	background-color: rgb(112, 98, 134);
+}
+
+.fairy:hover{
+	background-color: pink;
+}
+
+.fighting:hover{
+	background-color: sienna;
+}
+
+.tag {
+	background-color: rgba(255, 255, 255, 0.75);
+	padding: 0.25rem 0.5rem;
+	border-radius: 1rem;
 }
